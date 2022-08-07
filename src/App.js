@@ -1,14 +1,14 @@
 import "./App.css";
 import Profil from "../src/Components/Profile/Profil";
-import Tunisie from "../src/Components/image/3bef9442-f7f3-447e-a536-34f5198a4075-132993676442528526.jpg"
-import PropTypes from "prop-types";
+import Pict from "../src/Components/image/3bef9442-f7f3-447e-a536-34f5198a4075-132993676442528526.jpg"
+
 
 function App() {
 
   // object person
 
   const person = {
-    alt: "Im Tunisia",
+    alt: "Im Nidhal",
     name: "Web designer",
     Bio: "I'am a logo designer and this is some of my logo",
     age:25,
@@ -32,7 +32,7 @@ function App() {
         age={person.age}
         beauty={person.beauty}
       >
-        {Tunisie}
+        {Pict}
       </Profil>
     </div>
   );
