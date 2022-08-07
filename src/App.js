@@ -40,19 +40,3 @@ function App() {
 
 export default App;
 
-// Set default props
-Profil.defaultProps = {
-  fullName: "person Name",
-  Bio :"Bio of person",
-  age : "0000"
- };
- 
- // validation de types
- Profil.propTypes = {
-  beauty: PropTypes.oneOf([true, false]),
-  alt: PropTypes.any,
-  age: PropTypes.number,
-  fullName: PropTypes.string,
-  Bio: PropTypes.string,
-  affiche: PropTypes.func
- };
