@@ -9,7 +9,7 @@ function App() {
 
   const person = {
     alt: "Im Nidhal",
-    name: "Web designer",
+    pro: "Web designer",
     Bio: "I'am a logo designer and this is some of my logo",
     age:25,
     beauty:true
@@ -18,14 +18,14 @@ function App() {
 //fonction handleName 
 
   const handleName = _ => {
-    return alert(`Welcom to ${person.name} `);
+    return alert(`Welcom to ${person.alt} `);
     
   };
 
   return (
     <div className="App">
       <Profil
-        fullName={person.name}
+        fullName={person.pro}
         affiche={handleName}
         Bio={person.Bio}
         alt={person.alt}
